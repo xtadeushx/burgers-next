@@ -4,6 +4,7 @@ import Link from 'next/link';
 
 import styles from '../styles/Home.module.css';
 import fatBurger from '/public/fatburger.png';
+
 export default function Home() {
     return (
         <>

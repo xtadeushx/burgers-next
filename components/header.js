@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
 import { SiBurgerking } from 'react-icons/si';
+import { MdOutlinePersonOutline } from 'react-icons/md';
 const Header = () => {
     return (
         <header>
@@ -13,6 +14,9 @@ const Header = () => {
                 <Link href='/burgers'>Бургери</Link>
                 <Link href='/reviews'>Відгуки</Link>
             </nav>
+            <div>
+                <MdOutlinePersonOutline />
+            </div>
         </header>
     );
 };
